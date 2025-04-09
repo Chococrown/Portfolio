@@ -26,7 +26,7 @@ function About() {
            
             <img 
             src="../images/stou.png" 
-            alt="" 
+            alt="STOU" 
             style={{width: '50vw', height: 'auto'}} />
            
             <div>ปริญญาตรี วิทยาการคอมพิวเตอร์ มหาวิทยาลัยสุโขทัยธรรมาธิราช 2567</div>
@@ -50,6 +50,7 @@ function About() {
         <div className="about__01">
             <h2>ทักษะเด่น</h2>
             <br />
+            
             <div> การออกแบบเว็บด้วย HTML / CSS / JavaScript / React / Node.js </div>
         </div>
 
@@ -57,50 +58,50 @@ function About() {
 
 
         <div className="skill">
-        <h2>ทักษะ</h2>
-        <br />
+            <h2>ทักษะ</h2>
+            <br />
+
         <div className="skill__01">
-        <div>
-            <img 
-            src="../images/icon/HTML.svg" 
-            alt="HTML" 
-            style={{width: '5vw', height: 'auto'}} />
-            <p>HTML</p>
-        </div>
-        <div>
-            <img 
-            src="../images/icon/CSS.svg" 
-            alt="CSS" 
-            style={{width: '5vw', height: 'auto'}} />
-            <p>CSS</p>
-        </div>
-        <div>
-            <img 
-            src="../images/icon/JavaScript.svg" 
-            alt="Java Script" 
-            style={{width: '5vw', height: 'auto'}} />
-            <p>Java Script</p>
-        </div>
-        <div>
-            <img 
-            src="/images/icon/React-Dark.svg" 
-            alt="React" 
-            style={{width: '5vw', height: 'auto'}} />
-            <p>React</p>
-        </div>
-        <div>
-            <img 
-            src="../images/icon/NodeJS-Dark.svg" 
-            alt="Node.js"
-            style={{width: '5vw', height: 'auto'}} />
-            <p>Node.js</p>
-        </div>
+            <div>
+                <img 
+                src="../icons/skill/HTML.svg" 
+                alt="HTML" 
+                style={{width: '5vw', height: 'auto'}} />
+                <p>HTML</p>
+            </div>
+            <div>
+                <img 
+                src="../icons/skill/CSS.svg" 
+                alt="CSS" 
+                style={{width: '5vw', height: 'auto'}} />
+                <p>CSS</p>
+            </div>
+            <div>
+                <img 
+                src="../icons/skill/JavaScript.svg" 
+                alt="Java Script" 
+                style={{width: '5vw', height: 'auto'}} />
+                <p>Java Script</p>
+            </div>
+            <div>
+                <img 
+                src="../icons/skill/React-Dark.svg" 
+                alt="React" 
+                style={{width: '5vw', height: 'auto'}} />
+                <p>React</p>
+            </div>
+            <div>
+                <img 
+                src="../icons/skill/NodeJS-Dark.svg" 
+                alt="Node.js"
+                style={{width: '5vw', height: 'auto'}} />
+                <p>Node.js</p>
+            </div>
         </div>
 
         <hr />
 
         </div>
-
 
     </div>
 }

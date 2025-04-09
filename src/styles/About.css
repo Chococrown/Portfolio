@@ -13,3 +13,18 @@
 .about__img__01 {
     border-radius: 50%;
 }
+
+.skill {
+    margin: 5px;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+.skill__01 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+}
