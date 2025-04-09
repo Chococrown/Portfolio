@@ -1,7 +1,7 @@
 .about {
     margin: 5px;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .about__01 {
@@ -16,12 +16,12 @@
 .skill {
     text-align: center;
     color: white;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .skill__01 {
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding: 10px;
+    padding-bottom: 10px;
 }
