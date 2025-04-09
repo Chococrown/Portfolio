@@ -7,6 +7,7 @@ function Header() {
                 <ul className="header__02">
                     <div>ผลงาน</div>
                     <div>ติดต่อ</div>
+                    
                 </ul>
         </div>
         
