@@ -1,12 +1,11 @@
 .about {
     margin: 5px;
     text-align: center;
-    /* padding: 10px; */
 }
 
 .about__01 {
     padding: 10px;
-    color: white;
+
 }
 
 .about__img__01 {
@@ -15,7 +14,7 @@
 
 .skill {
     text-align: center;
-    color: white;
+
     padding-top: 10px;
 }
 
