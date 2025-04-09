@@ -12,4 +12,19 @@ code {
     monospace;
 }
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
 
+body.dark {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  font-family: sans-serif;
+}
