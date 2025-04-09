@@ -3,6 +3,8 @@
     margin: 0;
 
     box-sizing: border-box;
+    
+    
 }
 
 .header__00 {
@@ -18,7 +20,7 @@
 .header__01 {
     font-size: 20px;
     font-weight: 600;
-    color: hsl(0, 0%, 0%);
+    color: white;
     align-items: center;
     padding: 10px;
 }
@@ -30,6 +32,7 @@
     text-align: center;
     align-items: center;
     padding: 10px;
+    color: white;
 }
 
 .header__img__01 {
