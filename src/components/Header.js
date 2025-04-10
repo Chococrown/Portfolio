@@ -24,15 +24,15 @@ function Header() {
 
   const SunIcon = (
     <img 
-          src="../icons/sun.png" 
-          alt="" 
+          src={sunIcon}
+          alt="sun" 
           style={{width: '20px', height: 'auto'}} />
   );
 
   const MoonIcon = (
     <img 
-          src="../icons/moon.png" 
-          alt="" 
+          src={moonIcon}
+          alt="moon" 
           style={{width: '20px', height: 'auto'}} />
   );
 
@@ -40,8 +40,8 @@ function Header() {
         <div className="header__00">
             <div className="header__01">ประเสริฐ ตุ่นก่อ</div>
                 <ul className="header__02">
-                    <div>ผลงาน</div>
-                    <div>ติดต่อ</div>
+                  <li>ผลงาน</li>
+                  <li>ติดต่อ</li>
 
                     <img
                       src={theme === "light" ? moonIcon : sunIcon}
