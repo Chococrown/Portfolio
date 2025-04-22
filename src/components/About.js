@@ -51,7 +51,7 @@ function About() {
             <h2>ทักษะเด่น</h2>
             <br />
             
-            <div> การออกแบบเว็บด้วย HTML / CSS / JavaScript / React / Node.js </div>
+            <div> การออกแบบเว็บด้วย HTML / CSS / JavaScript / TypeScript / Git / React </div>
         </div>
 
         <hr />
@@ -85,18 +85,32 @@ function About() {
             </div>
             <div>
                 <img 
+                src="../icons/skill/TypeScript.svg" 
+                alt="TypeScript" 
+                style={{width: '5vw', height: 'auto'}} />
+                <p>TypeScript</p>
+            </div>
+            <div>
+                <img 
+                src="../icons/skill/Git.svg" 
+                alt="Git" 
+                style={{width: '5vw', height: 'auto'}} />
+                <p>Git</p>
+            </div>
+            <div>
+                <img 
                 src="../icons/skill/React-Dark.svg" 
                 alt="React" 
                 style={{width: '5vw', height: 'auto'}} />
                 <p>React</p>
             </div>
-            <div>
+            {/* <div>
                 <img 
                 src="../icons/skill/NodeJS-Dark.svg" 
                 alt="Node.js"
                 style={{width: '5vw', height: 'auto'}} />
                 <p>Node.js</p>
-            </div>
+            </div> */}
         </div>
 
         <hr />

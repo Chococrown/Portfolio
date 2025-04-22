@@ -15,6 +15,12 @@ function Header() {
     document.body.classList.toggle("dark", savedTheme === "dark");
   }, []);
 
+  const [isOpen, setIsOpen] = useState(false);
+  
+  const toggleHam = () => {
+    setIsOpen(!isOpen);
+  }
+
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
@@ -38,7 +44,20 @@ function Header() {
 
     return <header>
         <div className="header__00">
-            <div className="header__01">ประเสริฐ ตุ่นก่อ</div>
+            <div className="header__01">
+              <div className={`ham-menu ${isOpen ? "active" : ""}`} onClick={toggleHam}>  
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div className={`nav-menu ${isOpen ? "show" : ""}`}>
+                  <ul>
+                    <li>ผลงาน</li>
+                    <li>ติดต่อ</li>
+                  </ul> 
+                </div>
+              <div>ประเสริฐ ตุ่นก่อ</div>
+            </div>
                 <ul className="header__02">
                   <li>ผลงาน</li>
                   <li>ติดต่อ</li>
